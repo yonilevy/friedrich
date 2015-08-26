@@ -1,1 +1,44 @@
+PODS:
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - CocoaLumberjack (2.0.1):
+    - CocoaLumberjack/Default (= 2.0.1)
+    - CocoaLumberjack/Extensions (= 2.0.1)
+  - CocoaLumberjack/Core (2.0.1)
+  - CocoaLumberjack/Default (2.0.1):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.1):
+    - CocoaLumberjack/Default
+  - LumberjackConsole (2.4.3):
+    - CocoaLumberjack (>= 2.0.0)
+    - NBUCore (>= 2.0.3)
+  - NBUCore (2.0.4)
+  - PureLayout (3.0.0)
+
+DEPENDENCIES:
+  - BlocksKit
+  - CocoaLumberjack
+  - LumberjackConsole
+  - PureLayout
+
+SPEC CHECKSUMS:
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  CocoaLumberjack: 019d1361244274a6138c788c6cb80baabc13fb8f
+  LumberjackConsole: 81bad3312fea315b8a17e53926b014f032ec1f44
+  NBUCore: 89cbf3976cae47c358fd0ed8562ef66d79a8904a
+  PureLayout: 270dfee2236f697ab1d5e2771c2e5c248495fa0d
+
 COCOAPODS: 0.38.2
